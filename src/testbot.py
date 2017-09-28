@@ -12,7 +12,7 @@ removeTask_error = "Can't remove task from list. The list doesn't contain that t
 master_list = []
 task_counter = 0
 
-updater = Updater(token = '415067513:AAHA_qC7AnYLg58R51laH7EX_V0MXWXaRfc')
+updater = Updater(token = 'TOKEN')
 dispatcher = updater.dispatcher
 
 def start(bot, update):
