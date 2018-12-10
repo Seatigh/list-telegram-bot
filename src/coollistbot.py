@@ -66,6 +66,10 @@ class List:
 				return
 		print(removeTask_error)
 
+#############
+# FUNCTIONS #
+#############
+
 def start(bot, update):
 	print(">Starded")
 	bot.send_message(chat_id = update.message.chat_id, text = "I\'m a bot, please talk to me!")
